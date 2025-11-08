@@ -1,0 +1,41 @@
+📋 CHECKLIST - Arquivos Para Subir no GitHub
+================================================
+
+✅ Arquivos Principais:
+  □ app.py                    - Aplicação principal
+  □ start.sh                  - Script de inicialização
+  □ deploy.sh                 - Script de deploy
+
+✅ Pasta core/ (IMPORTANTE):
+  □ core/__init__.py
+  □ core/ocr.py              - Processamento OCR
+  □ core/parser.py           - Análise e nomenclatura
+  □ core/batch_manager.py    - Sistema de lotes
+
+✅ Pasta .streamlit/:
+  □ .streamlit/config.toml   - Configurações Streamlit
+
+✅ Pasta data/:
+  □ data/batches.json        - Dados de lotes (pode criar vazio)
+
+✅ Documentação:
+  □ RENDER_SETUP.md          - Guia de deploy no Render
+  □ GITHUB_UPLOAD.md         - Este guia
+  □ DEPLOYMENT.md            - Guia geral de deployment
+  □ INICIAR.md               - Como iniciar localmente
+  □ replit.md                - Documentação do projeto
+
+✅ Configurações Render:
+  □ render.yaml              - Config automática Render
+  □ requirements_render.txt  - Dependências Python
+
+✅ Pasta integrations/ (se existir):
+  □ integrations/__init__.py
+
+================================================
+TOTAL: ~15-20 arquivos/pastas
+
+ATENÇÃO: 
+- NÃO precisa subir: .replit, replit.nix, venv/, __pycache__/
+- Pasta data/ será criada automaticamente no Render
+================================================
